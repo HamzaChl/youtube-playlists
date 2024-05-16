@@ -1,0 +1,183 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+form {
+  margin-top: 40px;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 21px 0px rgba(0, 0, 0, 0.15);
+  width: 25vw;
+  border-radius: 10px;
+  padding: 40px;
+  height: auto;
+  text-align: center;
+}
+
+.login-form {
+  height: 350px;
+}
+
+.error {
+  background-color: rgba(249, 88, 88, 0.365);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(158, 46, 46);
+}
+
+form input {
+  height: 35px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  width: 100%;
+}
+
+.input-fields {
+  text-align: left;
+}
+
+label {
+  font-weight: bold;
+}
+
+.input-fields input,
+textarea {
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+textarea {
+  width: 100%;
+}
+
+.login {
+  background-color: rgb(0, 132, 255);
+  border: none;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.login:hover {
+  background-color: rgba(0, 132, 255, 0.692);
+}
+
+nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  height: 60px;
+  color: white;
+  align-items: center;
+
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+a:hover {
+  opacity: 0.8;
+}
+
+main {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section {
+  margin-top: 40px;
+  padding-top: 40px;
+  text-align: center;
+  width: 90vw;
+  background-color: #ffffff;
+  box-shadow: 10px 10px 21px 0px rgba(0, 0, 0, 0.15);
+  padding: 40px;
+
+}
+
+h1 {
+  font-size: 34px;
+  opacity: 0.8;
+}
+
+.search {
+
+  width: 100%;
+  text-align: left;
+}
+
+.search-label {
+  font-weight: normal;
+}
+
+.create-vid {
+  text-align: right;
+}
+
+.submit-vid {
+  background-color: rgb(0, 132, 255);
+  border: none;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  width: 100%;
+}
+
+.create-button {
+  background-color: #1F9543;
+  border: none;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: white;
+}
+
+table {
+  margin-top: 40px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f4f4f4;
+}
+
+tr:hover {
+  background-color: #f4f4f4;
+}
+
+.favorite {
+  text-align: right;
+}

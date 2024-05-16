@@ -1,0 +1,33 @@
+<%- include("partials/head")%>
+<main>
+    <%- include("partials/navbar")%>
+    <section>
+        <h1>Video List</h1>
+        <div class="search">
+            <label class="search-label" for="search">Search</label>
+            <input type="text" name="search">
+            <button type="submit">Search</button>
+        </div>
+        <div class="create-vid">
+            <button class="create-button" type="submit">Create New Video</button>
+        </div>
+        <table class="table">
+            <tr>
+                <th>Title</th>
+                <th>URL</th>
+                <th>Description</th>
+                <th>Rating</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>test text</td>
+                <td>test text</td>
+                <td>test text</td>
+                <td>test text</td>
+                <td class="favorite"><button type="submit">Favorite</button></td>
+            </tr>
+
+        </table>
+    </section>
+</main>
+<%- include("partials/footer")%>

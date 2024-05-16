@@ -1,6 +1,6 @@
 import { NextFunction, Request, Response, response } from "express";
 
-export async function requireLogin(request: Request, repsonse: Response, next: NextFunction) {
+export async function requireLogin(request: Request, response: Response, next: NextFunction) {
     if (request.session.username) {
         next();
     } else {
@@ -9,7 +9,7 @@ export async function requireLogin(request: Request, repsonse: Response, next: N
 };
 
 
-export async function sendBack(request: Request, repsonse: Response, next: NextFunction) {
+export async function sendBack(request: Request, response: Response, next: NextFunction) {
     if (request.session.username) {
         response.redirect("/home");
     } else {

@@ -1,0 +1,24 @@
+<%- include("partials/head") %>
+
+<form class="login-form" action="/login" method="post">
+    
+    <% if(message){ %>
+        <div class="error">
+
+            <p id="error"> <%= message %></p>
+        </div>
+        <%}%>
+    <p id="error"></p>
+    <h1>Login</h1>
+    <div class="input-fields">
+        <label for="username">Username</label><br>
+        <input type="text" id="username" name="username"> <br>
+    </div>
+    <div class="input-fields">
+        <label for="password">Password</label><br>
+        <input type="password" id="password" name="password"><br>
+    </div>
+    <button type="submit" class="login" >Login</button>
+</form>
+
+<%- include("partials/footer")%>

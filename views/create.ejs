@@ -1,0 +1,31 @@
+<%- include("partials/head")%>
+<main>
+    <%- include("partials/navbar")%>
+
+        <form action="/" method="post">
+            <h1>Submit a Video</h1>
+            
+            <div class="input-fields">
+                <label for="title">Title:</label><br>
+                <input type="text" id="username" name="title"> <br>
+            </div>
+            
+            <div class="input-fields">
+                <label for="url">URL:</label><br>
+                <input type="text" id="url" name="url"> <br>
+            </div>
+            
+            <div class="input-fields">
+                <label for="description">Description:</label><br>
+                <textarea name="description" id="description"  rows="10"></textarea> <br>
+            </div>
+            
+            <div class="input-fields">
+                <label for="rating">Rating:</label><br>
+                <input type="number" id="rating" name="rating"> <br>
+            </div>
+            
+            <button type="submit" class="submit-vid">Submit</button>
+        </form>
+</main>
+<%- include("partials/footer")%>
